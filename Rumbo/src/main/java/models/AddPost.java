@@ -16,6 +16,26 @@ public class AddPost {
 	String category_id;
 	@JsonProperty("category_name")
 	String category_name;
+        @JsonProperty("category_image")
+	String category_image;
+         @JsonProperty("post_category")
+	String post_category;
+
+    public String getPost_category() {
+        return post_category;
+    }
+
+    public void setPost_category(String post_category) {
+        this.post_category = post_category;
+    }
+
+    public String getCategory_image() {
+        return category_image;
+    }
+
+    public void setCategory_image(String category_image) {
+        this.category_image = category_image;
+    }
 
 	public String getDate() {
 		return date;

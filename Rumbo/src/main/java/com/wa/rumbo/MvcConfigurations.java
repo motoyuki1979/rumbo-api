@@ -19,10 +19,13 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @EnableWebMvc
 public class MvcConfigurations extends WebMvcConfigurerAdapter {
 
+    
+   // public final static String JDBC_URL = "jdbc:mysql://localhost:3306/app_Rumbo?useUnicode=yes&characterEncoding=UTF-8";
     public final static String JDBC_URL = "jdbc:mysql://localhost:3306/app_Rumbo?useUnicode=yes&characterEncoding=UTF-8";
+
     public final static String JDBC_USER = "root";
     //public final static String JDBC_PASSWORD = "redhat";	
-    public final static String JDBC_PASSWORD = "p@@p!";
+    public final static String JDBC_PASSWORD = "sadhasdj^ghfU7";
     private static final Logger logger = LoggerFactory.getLogger(MvcConfigurations.class);
 
     @Bean

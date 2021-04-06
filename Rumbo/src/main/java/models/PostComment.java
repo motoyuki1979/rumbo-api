@@ -6,6 +6,16 @@ public class PostComment {
 
 	@JsonProperty("post_id")
 	String post_id;
+        @JsonProperty("comment_id")
+	String comment_id;
+
+    public String getComment_id() {
+        return comment_id;
+    }
+
+    public void setComment_id(String comment_id) {
+        this.comment_id = comment_id;
+    }
 	@JsonProperty("comment")
 	String comment;
 

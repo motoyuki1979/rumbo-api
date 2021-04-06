@@ -13,10 +13,20 @@ public class GetPost {
 	String todays_tweets;
 	String category_id;
 	String category_name;
+        String category_image;
 	String is_like;
         String likes_count;
         String comments_count;
 
+        
+         public String getCategory_image() {
+        return category_image;
+    }
+
+    public void setCategory_image(String category_image) {
+        this.category_image = category_image;
+    }
+    
 	public String getId() {
 		return id;
 	}

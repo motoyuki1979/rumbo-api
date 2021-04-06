@@ -23,7 +23,7 @@ public class GetPostMapper implements RowMapper<GetPost>{
 		getPost.setTodays_tweets(rs.getString("todays_tweets"));
 		getPost.setCategory_id(rs.getString("category_id"));
 		getPost.setCategory_name(rs.getString("category_name"));
-		
+		getPost.setCategory_image(rs.getString("category_image"));
 		return getPost;
 	}
 
